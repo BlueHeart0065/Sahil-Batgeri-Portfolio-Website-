@@ -6,14 +6,14 @@ import { useState } from "react";
 
 const variants = {
     open:{
-        clipPath : "circle(1200px at 50px 50px)",
+        clipPath : "circle(63.1vw at 2.6vw 2.6vw)",
         transition : {
             type : 'spring',
             stiffness : 20,
         },
     } ,
     closed : {
-        clipPath: "circle(30px at 50px 50px)",
+        clipPath: "circle(1.6vw at 2.6vw 2.6vw)",
         transition : {
             delay : 0.5,
             type : 'spring',

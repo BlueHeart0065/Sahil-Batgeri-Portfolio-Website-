@@ -76,7 +76,8 @@
         padding: 2.10vw 13.13vw 0px 0px;
         
         img{
-            height: 45vw;
+
+            width: 35vw;
         }
         @include mobile {
             transform: scale(0.55);
