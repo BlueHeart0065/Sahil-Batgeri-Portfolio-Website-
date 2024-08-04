@@ -67,7 +67,7 @@ const Hero = () => {
             <motion.button  variants = {textVariants}> <a href="">See the Latest Works</a> </motion.button>
             <motion.button  variants = {textVariants} onClick={handleLinkClick} >Get Resume</motion.button>
           </motion.div>
-          <motion.img src="/scroll.png" alt=""  variants = {textVariants} animate = "scrollButton"/>
+          <motion.img src="scroll.png" alt=""  variants = {textVariants} animate = "scrollButton"/>
         </motion.div>
         <motion.div className="slidingTextContainer" variants = {sliderVariants} initial = "initial" animate = "animate">
           Computer Engineer Web Developer UI/UX Designer 
