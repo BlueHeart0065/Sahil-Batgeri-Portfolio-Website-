@@ -10,10 +10,10 @@
     overflow: hidden;
 
     h1{
-        font-size: 100px;
+        font-size: 5.25vw;
 
         @include mobile {
-            font-size: 60px;
+            font-size: 3.15vw;
             text-align: center;
         }
     }
@@ -57,6 +57,4 @@
         position: absolute;
         z-index: 1;
     }
-
-
 }

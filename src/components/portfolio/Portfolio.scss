@@ -8,26 +8,24 @@
         position: sticky;
         top: 0;
         left: 0; 
-        padding-top: 50px;
+        padding-top: 2.63vw;
         text-align: center;
         color: orange;
-        font-size: 36px;
+        font-size: 1.89vw;
 
         @include mobile {
             padding-top: 25vw;
-            font-size: 18px;
+            font-size: 0.95vw;
         }
 
         .progressBar{
-            height: 10px;
+            height: 0.53vw;
             background-color: white;
 
             @include mobile {
-                height: 6px; 
+                height: 0.32vw; 
             }
-
         }
-
     }
 
     .container{
@@ -39,78 +37,73 @@
         overflow: hidden;
         // border: 1px solid white;
 
-    
         .wrapper{
-            max-width: 1366px;
+            max-width: 71.78vw;
             height: 100%;
             margin: auto;
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 50px;
+            gap: 2.63vw;
 
             @include mobile {
                 flex-direction: column;
             }
-    
+
             .imageContainer{
                 flex: 1;
                 height: 50%;
 
                 @include mobile {
                     width: 100%;
-                    padding-top: 45vw;
+                    padding-top: 23.64vw;
                 }
-    
+
                 img{
                     width: 100%;
                     height: 100%;
                     object-fit: cover;
-
                 }
             }
-    
-    
+
             .textContainer{
                 flex:1;
                 display: flex;
                 flex-direction: column;
-                gap: 30px;
+                gap: 1.58vw;
 
                 @include mobile {
                     transform: none !important;
                     // padding: 10px;
                     align-items: center;
                     text-align: center;
-                    gap: 10px;
+                    gap: 0.53vw;
                 }
-    
+
                 h2{
-                    font-size: 72px;
+                    font-size: 3.78vw;
                     @include mobile {
-                        font-size: 20px;
+                        font-size: 1.05vw;
                     }
                 }
-    
+
                 p{
                     color: gray;
-                    font-size: 20px;
+                    font-size: 1.05vw;
                     @include mobile {
-                        font-size: 16px;
+                        font-size: 0.84vw;
                     }
-            
                 }
-    
+
                 button{
                     background-color: orange;
                     border:none;
-                    border-radius: 10px;
-                    padding: 10px;
-                    width: 200px;
+                    border-radius: 0.53vw;
+                    padding: 0.53vw;
+                    width: 10.51vw;
                     cursor: pointer;
                 }
             }
         }
-    
     }
 }

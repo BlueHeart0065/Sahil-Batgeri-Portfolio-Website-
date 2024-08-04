@@ -12,22 +12,19 @@
         align-self: flex-end;
         display: flex;
         align-items: center;
-        gap: 20px;
+        gap: 1.05vw;
         
-
         p{
             text-align: right;
             font-weight: 200;
-            font-size: 20px;
+            font-size: 1.05vw;
             color: gray;
         }
 
         hr{
-            width: 500px;
+            width: 26.27vw;
             border: none;
-            border-top: 0.5px solid gray;
-
-            
+            border-top: 0.026vw solid gray;
         }
     }
 
@@ -37,71 +34,53 @@
         flex-direction: column;
         align-items: center;
 
-       
-
         .title{
             display: flex;
             align-items: center;
-            gap: 50px;
-
-            
+            gap: 2.63vw;
 
             img{
-                width: 300px;
-                height: 100px;
-                border-radius: 50px;
+                width: 15.76vw;
+                height: 5.25vw;
+                border-radius: 2.63vw;
                 object-fit: cover;
-
-               
             }
 
             h1{
-                font-size: 96px;
+                font-size: 5.05vw;
                 font-weight: 100;
-
-                
             }
 
             button{
-                width: 300px;
-                height: 100px;
-                border-radius: 50px;
+                width: 15.76vw;
+                height: 5.25vw;
+                border-radius: 2.63vw;
                 background-color: orange;
                 border: none;
-                font-size: 24px;
+                font-size: 1.26vw;
                 cursor: pointer;
-
-                
             }
         }
-
     }
 
     .listContainer{
         flex: 2;
         display: flex;
-        max-width: 1366px;
+        max-width: 71.78vw;
         margin: auto;
 
-
         .box{
-            padding: 50px;
-            border: 0.5px solid gray;
+            padding: 2.63vw;
+            border: 0.026vw solid gray;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
 
-            
-
-            
-
             button{
-                padding: 10px;
+                padding: 0.53vw;
                 background-color: orange;
                 border: none;
                 cursor: pointer;
-
-                
             }
         }
     }

@@ -1,10 +1,10 @@
 @import "../../app.scss";
 
 .navbar{
-    height: 100px;
+    height: 5.25vw;
     
     .wrapper{
-        max-width: 1366px;
+        max-width: 71.78vw;
         margin: auto;
         display: flex;
         align-items: center;
@@ -13,7 +13,7 @@
 
         @include mobile {
             justify-content: flex-end;
-            padding: 20px;
+            padding: 1.05vw;
         }
 
         span{
@@ -26,11 +26,11 @@
 
         .social{
             display: flex;
-            gap: 20px;
+            gap: 1.05vw;
 
             img{
-                width: 18px;
-                height: 18px;
+                width: 0.95vw;
+                height: 0.95vw;
             }
         }
     }

@@ -2,36 +2,36 @@
 
 .contact{
     height: 100%;
-    max-width: 1366px;
+    max-width: 71.78vw;
     margin: auto;
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 2.63vw;
 
     @include mobile {
         width: 100%;
-        padding: 10px;
+        padding: 0.53vw;
         flex-direction: column;
     }
 
     .textContainer{
-        flex:1;
+        flex: 1;
         display: flex;
         flex-direction: column;
-        gap: 40px;
+        gap: 2.1vw;
 
         @include mobile {
-            gap: 10px;
+            gap: 0.53vw;
             text-align: center;
             align-items: center;
-            margin-top: 70px;
+            margin-top: 3.68vw;
         }
 
         h1{
-            font-size: 100px;
-            line-height: 88px;
+            font-size: 5.25vw;
+            line-height: 4.62vw;
             @include mobile {
-                font-size: 30px;
+                font-size: 1.58vw;
             }
         }
 
@@ -41,11 +41,11 @@
     }
 
     .formContainer{
-        flex : 1;
+        flex: 1;
         position: relative;
 
         @include mobile {
-            padding: 0px 20px ;
+            padding: 0px 1.05vw;
             width: 100%;
         }
         
@@ -54,40 +54,36 @@
             position: absolute;
             margin: auto;
             z-index: -1;
-
         }
 
         form{
-
             display: flex;
             flex-direction: column;
-            gap: 20px;
+            gap: 1.05vw;
     
             input, textarea{
-                padding: 20px;
+                padding: 1.05vw;
                 background-color: transparent;
-                border: 1px solid white;
+                border: 0.053vw solid white;
                 color: white;
-                border-radius: 5px;
+                border-radius: 0.26vw;
 
                 @include mobile {
-                    padding: 10px;
+                    padding: 0.53vw;
                 }
             }
 
             button{
-                padding: 20px;
+                padding: 1.05vw;
                 border: none;
                 background-color: orange;
                 cursor: pointer;
                 font-weight: 500;
 
                 @include mobile {
-                    padding: 10px;
+                    padding: 0.53vw;
                 }
             }
         }
-
     }
-    
 }
