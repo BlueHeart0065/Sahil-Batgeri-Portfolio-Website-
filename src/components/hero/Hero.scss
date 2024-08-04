@@ -23,7 +23,6 @@
             @include mobile {
                 height: 50%;
                 width: 100%;
-                gap: 1.05vw;
                 align-items: center;
                 text-align: center;
             }
@@ -31,7 +30,8 @@
             h2{
                 font-size: 1.58vw;
                 @include mobile {
-                    font-size: 1.05vw;
+                    font-size: 5vw;
+                    letter-spacing: 1vw;
                 }
                 color: rebeccapurple;
                 letter-spacing: 0.53vw;
@@ -41,11 +41,14 @@
                 font-size: 4.62vw;
 
                 @include mobile {
-                    font-size: 1.58vw;
+                    font-size: 7vw;
                 }
             }
 
             .buttons{
+                @include mobile {
+                    width: 80vw;
+                }
                 button{
                     padding: 1.05vw;
                     border: 1px solid white;
@@ -57,13 +60,20 @@
                     cursor: pointer;
 
                     @include mobile {
-                        margin-right: 0.53vw;
+                        border-radius: 2vw;
+                        padding: 3vw;
+                        margin-top: 2vw;
+                        margin-right: 3vw;
                     }
                 }
             }
 
             img{
                 width: 2.63vw;
+                @include mobile {
+                    display: none;
+                   
+                }
             }
         }
     }
@@ -74,23 +84,21 @@
         bottom: 0;
         right: 0;
         padding: 2.10vw 13.13vw 0px 0px;
+        @include mobile {
+            bottom: 0;
+            margin: 8vw auto;
+        }
         
         img{
             height: 85vh;
             width: 68vh;
-        }
-        @include mobile {
-            transform: scale(0.55);
-            top: 22.5%;
-            right: 10vw;
-
-            img{
+            @include mobile {
                 margin: auto;
-                width: 500%;
-                height: 100%;
-                object-fit: cover;
+                width: 40vh;
+                height: 50vh;
             }
         }
+
     }
 
     .slidingTextContainer{

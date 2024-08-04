@@ -1,3 +1,6 @@
+@import "../../app.scss";
+
+
 .Popup{
     position: absolute;
     top: 0;
@@ -16,11 +19,25 @@
         height: 20vw;
         margin: 15vw auto;
 
+        @include mobile {
+            width: 80vw;
+            height: 80vw;
+            margin: 40vw auto;
+        }
+
         .Cross{
             padding: 1vw;
+            @include mobile {
+                padding: 10px;
+            }
             img{
                 width: 2.2vw;
                 height: 2.2vw;
+
+                @include mobile {
+                    width: 9vw;
+                    height: 9vw;
+                }
             }
         }
 
@@ -33,12 +50,19 @@
                 img{
                     width: 4vw;
                     height: 4vw;
+                    @include mobile {
+                        width: 17vw;
+                        height: 17vw;
+                    }
                 }
                 h2{
                     margin: 0.5vw;
                     font-size: 2vw;
                     margin-left: 1vw;
                     color: rgb(44, 142, 223);
+                    @include mobile {
+                        font-size: 6vw;
+                    }
                 }
             }
 
@@ -47,8 +71,16 @@
             flex-direction: column;
             gap: 1vw;
 
+            @include mobile {
+                gap: 4vw;
+                padding: 4vw 7vw;
+            }
+
             p{
                 font-size: 1vw;
+                @include mobile {
+                    font-size: 4vw;
+                }
             }
         }
 
@@ -57,6 +89,11 @@
             flex-direction: row;
             gap: 1vw;
             padding: 1vw 3vw;
+
+            @include mobile {
+                gap: 4vw;
+                padding: 4vw 7vw;
+            }
 
             button{
                 display: flex;
@@ -70,10 +107,20 @@
                 border: 2px solid rgb(44, 142, 223);
                 width: 11vw;
                 height: 2.5vw;
+                @include mobile {
+                    width: fit-content;
+                    height: 10vw;
+                    font-size: 3vw;
+                    padding: 1vw 7vw;
+                }
                 img{
                     margin: auto;
                     width: 1.2vw;
                     height: 1.2vw;
+                    @include mobile {
+                        width: 5vw;
+                        height: 5vw;
+                    }
                 }
                 p{
                    margin: auto ; 

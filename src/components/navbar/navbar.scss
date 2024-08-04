@@ -3,6 +3,9 @@
 .navbar{
     height: 5.25vw;
     
+    @include mobile {
+        height: 20vw;
+    }
     .wrapper{
         max-width: 71.78vw;
         margin: auto;
@@ -12,8 +15,8 @@
         height: 100%;
 
         @include mobile {
-            justify-content: flex-end;
-            padding: 1.05vw;
+            justify-content: center;
+            padding: 2vw;
         }
 
         span{
@@ -27,10 +30,18 @@
         .social{
             display: flex;
             gap: 1.05vw;
-
+            @include mobile {
+                gap:6vw;
+                
+            }
             img{
                 width: 0.95vw;
                 height: 0.95vw;
+                @include mobile {
+                    margin-top: 10vw;
+                    width: 6vw;
+                    height: 6vw;
+                }
             }
         }
     }

@@ -14,8 +14,8 @@
         font-size: 1.89vw;
 
         @include mobile {
-            padding-top: 25vw;
-            font-size: 0.95vw;
+            padding-top: 15vw;
+            font-size: 3vw;
         }
 
         .progressBar{
@@ -23,7 +23,7 @@
             background-color: white;
 
             @include mobile {
-                height: 0.32vw; 
+                height: 1.5vw; 
             }
         }
     }
@@ -56,13 +56,14 @@
 
                 @include mobile {
                     width: 100%;
-                    padding-top: 23.64vw;
+                    padding-top: 30vw;
                 }
 
                 img{
                     width: 100%;
                     height: 100%;
                     object-fit: cover;
+                    
                 }
             }
 
@@ -77,13 +78,13 @@
                     // padding: 10px;
                     align-items: center;
                     text-align: center;
-                    gap: 0.53vw;
+                    gap: 4vw;
                 }
 
                 h2{
                     font-size: 3.78vw;
                     @include mobile {
-                        font-size: 1.05vw;
+                        font-size: 5vw;
                     }
                 }
 
@@ -91,7 +92,7 @@
                     color: gray;
                     font-size: 1.05vw;
                     @include mobile {
-                        font-size: 0.84vw;
+                        font-size: 4vw;
                     }
                 }
 
@@ -102,6 +103,12 @@
                     padding: 0.53vw;
                     width: 10.51vw;
                     cursor: pointer;
+
+                    @include mobile {
+                        padding: 2vw 4vw;
+                        width: fit-content;
+                        font-size: 4vw;
+                    }
                 }
             }
         }
