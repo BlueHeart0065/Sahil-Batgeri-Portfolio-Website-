@@ -52,7 +52,7 @@ const Hero = () => {
   };
   const handleConfirmDownload = () => {
     setModalOpen(false);
-    window.location.href = '/Sahil Resume 1.pdf';
+    window.location.href = 'Sahil Resume 1.pdf';
   };
 
 
@@ -73,7 +73,7 @@ const Hero = () => {
           Computer Engineer Web Developer UI/UX Designer 
         </motion.div>
         <div className="imageContainer">
-            <img src="/sahil.png" alt="" />
+            <img src="sahil.png" alt="" />
         </div>
       </div>
       <PopUp isOpen={isModalOpen} onClose={handleCloseModal} onConfirm={handleConfirmDownload} />
