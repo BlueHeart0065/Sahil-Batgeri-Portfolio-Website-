@@ -14,7 +14,7 @@ const items = [
         id : 2,
         title : "TEDx PVGCOET Website",
         img : "tedx.png",
-        desc : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae aut libero minima autem repudiandae vero dolorem eveniet quam assumenda deleniti dicta, ab neque? Ipsum, reiciendis. Mollitia quibusdam ullam doloribus delectus.",
+        desc : "A dynamic website for the official TEDxPVGCOET club of our college, featuring an interactive event panel, team showcase, organizational information and thematic elements",
         src : "https://tedxpvgcoet.com/"
     },
     {
@@ -29,7 +29,7 @@ const items = [
         id : 4,
         title : "UI UX Projects",
         img : "uiux.png",
-        desc : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae aut libero minima autem repudiandae vero dolorem eveniet quam assumenda deleniti dicta, ab neque? Ipsum, reiciendis. Mollitia quibusdam ullam doloribus delectus.",
+        desc : "This google drive folder consists of all my UI-UX projects on mobile and PC website screens implemented using design principles.",
         src : "https://drive.google.com/drive/folders/1Vss6tjj3LHXOIcJY5lE6gtpRKTNzRa2E?usp=drive_link"
     }
 ]
